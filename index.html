@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DLK</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/common.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <header class="header">
@@ -17,7 +23,7 @@
                 <li><a class="header-nav-link" href="#">About Us</a></li>
             </ul>
         </nav>
-        <ul class="header-list">
+        <ul class="header-nav">
             <li><button class="header-list-button button">
                 <img class="search-image" src="/images/search.svg" alt="search">
             </button> </li>
@@ -27,6 +33,7 @@
     <main>
         <section class="poster">
             <h1 class="poster-title">THE OOH NOO COLLECTION</h1>
+            <p class="num-poster">01</p>
             <ul class="rectangle">
                 <li><button class="rectange-button button"></button></li>
                 <li><button class="rectange-button button"></button></li>
@@ -45,18 +52,22 @@
                 <li><a class="category-list-link" href="#"><img src="/images/toys.jpg" alt="TOY"></a></li>
                 <li><a class="category-list-link" href="#"><img src="/images/accessories.jpg" alt="ACCESSORIES"></a></li>
             </ul>
-            <button class="button-previous button">&lt;</button>
-            <button class="button-next button">&gt;</button>
-            <p class="category-text">Modern finds for the modern home. Curated goods by unique designers<br>around the world from fashion to furniture for kids and adults.</p>
+            <button class="button-move">
+                <img src="/images/button-previous (1).png" alt="&lt;">
+            </button>
+            <button class="button-move">
+                <img src="/images/button-next.png" alt="&gt;">
+            </button>
+                <p class="category-text">Modern finds for the modern home. Curated goods by unique designers<br>around the world from fashion to furniture for kids and adults.</p>
         </section>
         <section class="responsive">
             <h2 class="responsive-title">Delivery</h2>
             <button class="responsive-button button">Delivery</button>
-            <button class="responsive-button button">Guarantee</button>
-            <button class="responsive-button button">Credit</button>
+            <button class="responsive-button button no-focus">Guarantee</button>
+            <button class="responsive-button button no-focus">Credit</button>
             <p class="responsive-text">Some days i feel like i've been working on dlk my entire life and<br>there are other days that i am completely shocked that four<br>years have flown by. It's simply magical.</p>
             <p class="responsive-text">What started as an outlet to deal  with the traumatic loss of my<br>husband, dlk has now become a truly happy place for me and i<br>have you and all of the beautiful designers that we work with<br>to thank!</p>
-            <a class="responsive-button button" href="#">LEARN MORE</a>
+            <a class="responsive-learn button" href="#">LEARN MORE</a>
             <img src="/images/woman.jpg" alt="">
         </section>
         <section class="partners">
@@ -69,21 +80,21 @@
             </ul>
         </section>
         <section class="about">
-            <h2 class="about-title">DESIGN LIFE KIDS</h2>
-            <h3 class="about-title">About Us</h3>
-            <p class="about-text">Some days i feel like i've been working on dlk my entire life and<br>there are other days that i am completely shocked that four<br>years have flown by. It's simply magical.</p>
+            <h2 class="endPage-title">DESIGN LIFE KIDS</h2>
+            <h3 class="about-title-second">About Us</h3>
+            <p class="endPage-text">Some days i feel like i've been working on dlk my entire life and<br>there are other days that i am completely shocked that four<br>years have flown by. It's simply magical.</p>
             <a class="about-button button" href="#">buy now</a>
         </section>
         <section class="contact">
-            <h2 class="contact-title">CONTACTS</h2>
-            <p class="contact-text">Some days i feel like i've been working on dlk my entire life and<br>there are other days that i am completely shocked that four<br>years have flown by. It's simply magical.</p>
+            <h2 class="endPage-title">CONTACTS</h2>
+            <p class="endPage-text">Some days i feel like i've been working on dlk my entire life and<br>there are other days that i am completely shocked that four<br>years have flown by. It's simply magical.</p>
         </section>
         <div class="map">
             <img src="/images/map.jpg" alt="">
         </div>
     </main>
     <footer class="footer">
-        <h4 class="footer-left-title">Navigation</h4>
+        <h4 class="footer-title">Navigation</h4>
         <ul class="footer-left">
             <li><a class="footer-left-link" href="#">About Us</a></li>
             <li><a class="footer-left-link" href="#">Blog</a></li>
@@ -92,7 +103,7 @@
             <li><a class="footer-left-link" href="#">2018 Holiday Catalog</a></li>
             <li><a class="footer-left-link" href="#">Shop By Designer</a></li>
         </ul>
-        <h4 class="footer-bar-title">Customer Information</h4>
+        <h4 class="footer-title">Customer Information</h4>
         <ul class="footer-middle">
             <li><a class="footer-left-link" href="#">Contact Us</a></li>
             <li><a class="footer-left-link" href="#">Sale Exclusions</a></li>
@@ -101,8 +112,13 @@
             <li><a class="footer-left-link" href="#">Privacy Policy</a></li>
             <li><a class="footer-left-link" href="#">Search</a></li>
         </ul>
-        <h4 class="footer-bar-title">Connect</h4>
+        <h4 class="footer-title">Connect</h4>
         <div class="footer-right">
+            <form action="/contact-us/index.html" class="form">
+                <label class="text-lable">
+                    <input class="input-text" type="email" name="email" placeholder="Email">
+                </label>
+            </form>
             <button class="footer-button button">Join</button>
             <ul class="social">
                 <li><a class="social-link" href="#"><img src="/images/Facebook.svg" alt="facebook"></a></li>

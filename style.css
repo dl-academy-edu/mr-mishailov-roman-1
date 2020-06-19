@@ -1,0 +1,198 @@
+/* header */
+.header-list-button {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+/* Poster */
+
+.poster-title {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 40px;
+    line-height: 110%;
+
+    color: #1E0606;
+}
+.num-poster {
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 73px;
+    text-transform: uppercase;
+
+
+    color: rgba(30, 6, 6, 0.05);
+}
+
+/* .rectangle {
+
+} */
+
+.rectange-button {
+    width: 31px;
+    height: 3px;
+    left: 141px;
+    top: 332px;
+
+    background-color: #D6CAC2;
+}
+
+.poster-text {
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #1E0606;
+}
+
+/* .poster-button {
+
+} */
+
+.poster-footer-text {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    background-color: #000000; /* временный фон*/
+}
+
+/* Category product */
+
+.category-title {
+    font-family: Montserrat;
+    font-size: 38px;
+    line-height: 46px;
+
+    text-transform: uppercase;
+
+    color: #1E0606;
+}
+
+/* .category-list {
+   
+} */
+
+.button-move {
+    border-color: transparent;
+    background-color: white;
+}
+
+.category-text {
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #1E0606;
+}
+
+/* Responsive */
+
+.responsive-title {
+    font-family: Montserrat;
+    font-size: 38px;
+    line-height: 46px;
+
+    text-transform: uppercase;
+
+    color: #1E0606;
+}
+
+.responsive-button {
+    font-family: Crimson Text;
+    font-style: italic;
+    font-size: 26px;
+    line-height: 32px;
+    text-transform: capitalize;
+    
+    color: #1E0606;
+    background-color: rgba(112, 187, 220, 0.2);
+}
+
+.no-focus {
+    font-weight: normal;
+    background-color: white;
+}
+
+.responsive-text {
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #1E0606;
+}
+
+/* About us  */
+
+
+.endPage-title {
+    font-family: Montserrat;
+    font-size: 38px;
+    line-height: 46px;
+
+    text-transform: uppercase;
+
+    color: #1E0606;
+}
+
+.about-title-second {
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+
+    color: #1E0606;
+}
+
+.endPage-text {
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #1E0606;
+}
+
+/* Footer  */
+.footer-title {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+
+    color: #AAAAAA;
+}
+
+.footer-left-link {
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+    background-color: black; /*временный фон*/
+}
+
+input::placeholder {
+    font-size: 16px;
+    line-height: 22px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #EBEBEB;
+}
+
+.bottom-text {
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+    background-color: black; /*временный фон*/
+}
+
+.bottom-link {
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #A2A2A2;
+}

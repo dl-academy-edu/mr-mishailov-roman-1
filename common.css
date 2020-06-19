@@ -1,0 +1,68 @@
+body { 
+    font-family: 'Open Sans', sans-serif; 
+}
+
+a {
+     text-decoration: none; 
+    }
+
+html {
+     box-sizing: border-box; 
+    }
+
+*, *::before, *::after {
+     box-sizing: inherit; 
+    }
+
+img {
+     max-width: 100%; 
+    }
+
+/* text font-family: 'Crimson Text', serif; */
+/* font-family: 'Montserrat', sans-serif; */
+
+ul {
+    list-style-type: none;
+}
+.hidden {
+    display: none;
+}
+
+/* Header  */
+
+.header-nav-link {
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+    color: #1E0606;
+}
+
+/* .header-nav {
+
+} */
+
+.header-list-contact {
+    text-transform: uppercase;
+    
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    
+
+    color: #1E0606; 
+}
+
+
+.button {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    background-color: #000000;
+    border-color: transparent;
+}
+
