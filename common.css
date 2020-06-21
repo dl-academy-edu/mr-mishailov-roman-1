@@ -29,18 +29,39 @@ ul {
 }
 
 /* Header  */
+.container {
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    align-items: center;
+
+    padding-top: 50px;
+}
+
+.header-nav-text {
+    display: flex;
+    margin-left: 20px;
+}
+
+.header-search {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
 
 .header-nav-link {
+    margin-left: 20px;
+
     font-size: 14px;
     line-height: 19px;
     text-transform: uppercase;
 
     color: #1E0606;
 }
-
-/* .header-nav {
-
-} */
 
 .header-list-contact {
     text-transform: uppercase;
@@ -55,6 +76,11 @@ ul {
 
 
 .button {
+    padding: 9px 22px;
+
+    max-width: 161px;
+
+    text-align: center;
     font-weight: bold;
     font-size: 16px;
     line-height: 22px;
@@ -64,5 +90,7 @@ ul {
 
     background-color: #000000;
     border-color: transparent;
+    display: block;
 }
+
 
