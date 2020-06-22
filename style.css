@@ -119,6 +119,10 @@ z-index: -1;
 
 /* Category product */
 
+.category {
+    padding: 0 0;
+}
+
 .category-title {
     font-family: Montserrat;
     font-size: 38px;
@@ -127,15 +131,30 @@ z-index: -1;
     text-transform: uppercase;
 
     color: #1E0606;
+
+    margin-top: 90px;
+    margin-bottom: 30px;
 }
 
-/* .category-list {
-   
-} */
+.category-list {
+display: flex;
+justify-content: space-between;
+padding: 0;
+margin: 0 auto;
+}
+
+.slider-button {
+    display: flex;
+    margin-top: 30px;
+}
 
 .button-move {
     border-color: transparent;
     background-color: white;
+    display: block;
+    margin: 0 6px 0 0;
+
+    padding: 0 0;
 }
 
 .category-text {
@@ -143,6 +162,7 @@ z-index: -1;
     line-height: 22px;
 
     color: #1E0606;
+    margin-left: 26px;
 }
 
 /* Responsive */
