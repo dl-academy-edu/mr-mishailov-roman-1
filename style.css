@@ -150,6 +150,7 @@ margin: 0 auto;
 
 .button-move {
     border-color: transparent;
+    border: none;
     background-color: white;
     display: block;
     margin: 0 6px 0 0;
@@ -167,7 +168,22 @@ margin: 0 auto;
 
 /* Responsive */
 
+.responsive {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+
+.responsive-box {
+    margin-left: 120px;
+
+}
+
 .responsive-title {
+    margin-top: 30px;
+
     font-family: Montserrat;
     font-size: 38px;
     line-height: 46px;
@@ -183,9 +199,19 @@ margin: 0 auto;
     font-size: 26px;
     line-height: 32px;
     text-transform: capitalize;
-    
+    text-align: left;
+
+    min-width: 326px;
+    min-height: 55px;
+
+    padding: 11px 0 11px 60px;
+
     color: #1E0606;
     background-color: rgba(112, 187, 220, 0.2);
+}
+
+.margin-batton {
+    margin-left: -60px;
 }
 
 .no-focus {
@@ -198,6 +224,11 @@ margin: 0 auto;
     line-height: 22px;
 
     color: #1E0606;
+    margin-top: 15px;
+}
+
+.responsive-learn {
+    margin-top: 15px;
 }
 
 /* About us  */
