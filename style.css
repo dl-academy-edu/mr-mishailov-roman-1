@@ -1,8 +1,5 @@
 /* header */
-.header-list-button {
-    background-color: transparent;
-    border-color: transparent;
-}
+
 
 /* Poster */
 
@@ -173,6 +170,7 @@ margin: 0 auto;
     flex-direction: row-reverse;
     padding: 0;
     justify-content: flex-end;
+    margin-top: 90px;
 }
 
 
@@ -245,8 +243,22 @@ margin: 0 auto;
 
 }
 
+/* Bottom container  */
+.bottom-container {
+    display: flex;
+    padding: 0 0;
+    margin-bottom: 182px;
+}
+.size-container {
+    min-width: 543;
+}
+
+
 /* About us  */
 
+.size-container {
+    min-width: 543;
+}
 
 .endPage-title {
     font-family: Montserrat;
@@ -256,6 +268,8 @@ margin: 0 auto;
     text-transform: uppercase;
 
     color: #1E0606;
+    margin-bottom: 0;
+
 }
 
 .about-title-second {
@@ -266,6 +280,8 @@ margin: 0 auto;
     line-height: 32px;
 
     color: #1E0606;
+    margin:10px 0 10px 0;
+
 }
 
 .endPage-text {
@@ -275,46 +291,10 @@ margin: 0 auto;
     color: #1E0606;
 }
 
-/* Footer  */
-.footer-title {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-
-
-    color: #AAAAAA;
+/* Contact */
+.contact {
+    margin-left: 57px;
 }
 
-.footer-left-link {
-    font-size: 16px;
-    line-height: 22px;
 
-    color: #FFFFFF;
-    background-color: black; /*временный фон*/
-}
 
-input::placeholder {
-    font-size: 16px;
-    line-height: 22px;
-    
-    display: flex;
-    align-items: center;
-    
-    color: #EBEBEB;
-}
-
-.bottom-text {
-    font-size: 16px;
-    line-height: 22px;
-
-    color: #FFFFFF;
-    background-color: black; /*временный фон*/
-}
-
-.bottom-link {
-    margin-right: 20px;
-    font-size: 16px;
-    line-height: 22px;
-
-    color: #A2A2A2;
-}
