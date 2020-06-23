@@ -213,7 +213,7 @@ input::placeholder {
 
 .bottom {
     display: flex;
-    padding: 0 0 ;
+    padding: 0 0 100px 0;
     align-items: center;
     justify-content: start;
 
@@ -237,6 +237,6 @@ input::placeholder {
     max-width: 350px;
 }
 .margin-copirate {
-margin-right: 115px;
-max-width: 300px;
+    margin-right: 115px;
+    max-width: 300px;
 }
