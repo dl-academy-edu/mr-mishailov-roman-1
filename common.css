@@ -33,9 +33,11 @@ ul {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 10px;}
+
 .header {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 
     padding-top: 50px;
 }
@@ -43,13 +45,15 @@ ul {
 .header-nav-text {
     display: flex;
     margin-left: 20px;
+    flex-wrap: wrap;
 }
 
 .header-search {
     display: flex;
-    margin-left: auto;
     align-items: center;
+    margin-left: auto;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 
@@ -95,10 +99,17 @@ ul {
 
 .header-list-button {
     background-color: transparent;
-    border-color: transparent;
+    border: none;
+    padding: 0 22px;
+
 }
 
 /* Footer  */
+
+.footer {
+    flex-wrap: wrap;
+}
+
 .footer-title {
     font-weight: normal;
     font-size: 16px;
@@ -115,6 +126,10 @@ ul {
 
     color: #FFFFFF;
 
+}
+
+.footer-button {
+    max-width: 80px;
 }
 .input-size {
     width: 300px;
@@ -134,7 +149,11 @@ input::placeholder {
     display: flex;
     align-items: center;
     
-    color: #EBEBEB;
+    color: #EBEBEB;;
+}
+
+.bottom {
+    flex-wrap: wrap;
 }
 
 .bottom-text {
@@ -163,6 +182,8 @@ input::placeholder {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 
@@ -171,8 +192,7 @@ input::placeholder {
 }
 
 .footer-coloms {
-    max-width: 380px;
-    margin-right: 20px;
+    width: 380px;
 }
 
 .footer-list {
@@ -189,7 +209,13 @@ input::placeholder {
 }
 
 .line-bottom {
+    display: flex;
+    flex-wrap: wrap;
     padding: 0 0;
+}
+
+.full-line {
+    padding: 0 110px;
 }
 
 .footer-right {
@@ -239,4 +265,53 @@ input::placeholder {
 .margin-copirate {
     margin-right: 115px;
     max-width: 300px;
+}
+
+
+/* Form  */
+.text-lable {
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1E0606;
+    
+}
+
+.input-text {
+    min-height: 50px;
+    min-width: 290px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 14px 20px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+
+.adress-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.area-place {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 150px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+.plus ::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #1E0606;
+
+}
+
+.form-button {
+    margin-top: 20px;
+    max-width: 106px;
 }
