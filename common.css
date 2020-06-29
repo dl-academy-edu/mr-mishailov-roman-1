@@ -1,0 +1,317 @@
+body { 
+    font-family: 'Open Sans', sans-serif; 
+}
+
+a {
+     text-decoration: none; 
+    }
+
+html {
+     box-sizing: border-box; 
+    }
+
+*, *::before, *::after {
+     box-sizing: inherit; 
+    }
+
+img {
+     max-width: 100%; 
+    }
+
+/* text font-family: 'Crimson Text', serif; */
+/* font-family: 'Montserrat', sans-serif; */
+
+ul {
+    list-style-type: none;
+}
+.hidden {
+    display: none;
+}
+
+/* Header  */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding-top: 50px;
+}
+
+.header-nav-text {
+    display: flex;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+
+.header-search {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+.header-nav-link {
+    margin-left: 20px;
+
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+    color: #1E0606;
+}
+
+.header-list-contact {
+    text-transform: uppercase;
+    
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    
+
+    color: #1E0606; 
+}
+
+
+.button {
+    padding: 9px 22px;
+
+    max-width: 161px;
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    background-color: #000000;
+    border-color: transparent;
+    display: block;
+}
+
+.header-list-button {
+    background-color: transparent;
+    border: none;
+    padding: 0 22px;
+
+}
+
+/* Footer  */
+
+.footer {
+    flex-wrap: wrap;
+}
+
+.footer-title {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 23px;
+
+
+    color: #AAAAAA;
+}
+
+.footer-left-link {
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+
+}
+
+.footer-button {
+    max-width: 80px;
+}
+.input-size {
+    width: 300px;
+    height: 40px;
+    max-width: 300px;
+
+    color: #EBEBEB;
+    background-color: #666666 ;
+    border: none;
+
+}
+
+input::placeholder {
+    font-size: 16px;
+    line-height: 22px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #EBEBEB;;
+}
+
+.bottom {
+    flex-wrap: wrap;
+}
+
+.bottom-text {
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.bottom-link {
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #A2A2A2;
+}
+
+.footer {
+    padding: 100px 0 0 0;
+    background-color: #434343;
+    max-width: 1400px;
+
+}
+
+.footer-inside {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.star-box, .stars {
+    display: flex;
+}
+
+.footer-coloms {
+    width: 380px;
+}
+
+.footer-list {
+    padding: 0 0;
+    margin: 28px 0 ;
+}
+
+.footer-left-link {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+    color: #FFFFFF;
+}
+
+.line-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+}
+
+.full-line {
+    padding: 0 110px;
+}
+
+.footer-right {
+    margin-top: 25px;
+}
+
+.footer-input {
+    display: flex;
+
+}
+
+.social {
+    display: flex;
+    margin-top: 25px;
+    padding: 0 0;
+}
+
+.social-link {
+    margin-right: 10px ;
+}
+
+.bottom {
+    display: flex;
+    padding: 0 0 100px 0;
+    align-items: center;
+    justify-content: start;
+
+}
+
+
+.star {
+    max-width: 17px;
+    max-height: 17px;
+    margin-right: 2.88px;
+    
+}
+
+.stars {
+    align-items: center;
+    padding: 0 0;
+    margin-left: 25px;
+}
+.star-box {
+    margin-right: 170px;
+    max-width: 350px;
+}
+.margin-copirate {
+    margin-right: 115px;
+    max-width: 300px;
+}
+
+
+/* Form  */
+.text-lable {
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1E0606;
+    
+}
+
+.input-text {
+    min-height: 50px;
+    min-width: 290px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 14px 20px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+
+.adress-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.area-place {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 150px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+.plus ::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #1E0606;
+
+}
+
+.form-button {
+    margin-top: 20px;
+    max-width: 106px;
+}
