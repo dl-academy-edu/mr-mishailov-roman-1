@@ -41,6 +41,13 @@ ul {
 
     padding-top: 50px;
 }
+.header-img:hover, .header-nav-link:hover, .header-list-contact:hover , .header-list-button:hover {
+    opacity: 50%;
+}
+
+.header-img:active, .header-nav-link:active, .header-list-contact:active , .header-list-button:active {
+    opacity: 25%;
+}
 
 .header-nav-text {
     display: flex;
@@ -97,12 +104,17 @@ ul {
     display: block;
 }
 
-.header-list-button {
+.button:hover {
+    background-color: #C29974;
+}
+
+.header-list-button  {
     background-color: transparent;
     border: none;
     padding: 0 22px;
 
 }
+
 
 /* Footer  */
 
@@ -130,6 +142,7 @@ ul {
 
 .footer-button {
     max-width: 80px;
+
 }
 .input-size {
     width: 300px;
@@ -139,6 +152,7 @@ ul {
     color: #EBEBEB;
     background-color: #666666 ;
     border: none;
+
 
 }
 
@@ -184,6 +198,10 @@ input::placeholder {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.line-block {
+    display: block;
+    width: 98%;
 }
 
 
@@ -288,6 +306,7 @@ input::placeholder {
     margin-top: 6px;
     margin-bottom: 20px;
 }
+
 
 .adress-box {
     display: flex;
