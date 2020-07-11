@@ -25,7 +25,14 @@ ul {
     list-style-type: none;
 }
 .hidden {
-    display: none;
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
 }
 
 /* Header  */
@@ -334,4 +341,42 @@ input::placeholder {
 .form-button {
     margin-top: 20px;
     max-width: 106px;
+}
+
+/* Article number navigation */
+.article-nav {
+    margin-top: 33px;
+    margin-bottom: 63px;
+}
+
+.article-nav, .num-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-height: 26px;
+
+}
+
+.num-nav {
+    margin: 0 0;
+    min-width: 215px;
+}
+
+.article-button {
+    border: none;
+    background-color: transparent;
+
+}
+
+.num-button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+
+    text-transform: uppercase;
+
+
+    color: #1E0606;
 }

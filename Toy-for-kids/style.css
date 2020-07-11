@@ -1,0 +1,217 @@
+/* Contact pages */
+
+.contact-us-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color:  #1E0606 ;
+    text-transform: uppercase;
+    
+    margin-top: 60px;
+    margin-bottom: 15px;
+   
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    padding: 0 0;
+    margin: 0 0;
+
+}
+
+.nav-margin {
+    margin-right: 20px;
+}
+
+.link-text {
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1E0606;
+}
+.text-finish {
+    opacity: 50%;
+}
+
+/* Category products */
+
+
+
+
+.bottom-section {
+    display: block;
+    width: 680px;
+    padding: 0 0;
+    margin: 17px 410px 60px 200px;
+}
+
+.bottom-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+
+    text-transform: uppercase;
+
+    color: #1E0606;
+    margin-top: 17px;
+    margin-bottom: 25px;
+}
+
+.description-text {
+    margin-top: 15px;
+
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #1E0606;
+}
+ 
+/* input container */
+
+.toys-search {
+    max-width: 1400px;
+
+    margin: 0 auto;
+    padding: 0 0;
+    background-color:  rgba(125, 151, 218, 0.2);
+}
+
+.field-direction {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 42px 110px;
+}
+
+.search-box {
+    border: none;
+    padding: 0 0;
+}
+
+.cost-box {
+    width: 200px;
+}
+.range-cost {
+    min-width: 188px;
+}
+
+.colors{
+    padding: 0 0;
+}
+
+.delivery {
+    padding: 0 0;
+
+}
+
+.amount-list {
+    list-style-type: none;
+    padding: 0 0;
+    display: flex;
+}
+.search-title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #1E0606;
+}
+
+.range-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-lable-checkbox {
+    margin-bottom: 15px;
+    padding-left: 29px;
+}
+
+.input-lable-rad {
+    margin-bottom: 10px;
+    padding-left:  30px; 
+}
+
+
+.color-lable {
+    display: flex;
+    flex-direction: row;
+}
+.delivery-lable {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.input-checkbox-checker {
+    position: absolute;
+
+    border: 2px solid #C29974;
+    box-sizing: border-box;
+    border-radius: 3px;;
+    
+    width: 19px;
+    height: 21px;
+
+    align-items: center;
+}
+
+.input-checkbox-circle {
+    position: absolute;
+
+    border: 2px solid #C29974;
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+
+    align-items: center;
+}
+
+.rad-checker:checked ~ .input-checkbox-circle::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    bottom: 3px;
+    left: 3px;
+
+    background-color: #C29974;
+    border-radius: 50%;
+}
+
+.things-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 0;
+}
+
+.thing {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.thing-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #1E0606;
+}
+
+.thing-cost {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #1E0606;
+}

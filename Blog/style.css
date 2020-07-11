@@ -82,40 +82,4 @@
 
     color: #1E0606;
 }
-.article-nav {
-    margin-top: 33px;
-    margin-bottom: 63px;
-}
-
-.article-nav, .num-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    max-height: 26px;
-
-}
-
-.num-nav {
-    margin: 0 0;
-    min-width: 215px;
-}
-
-.article-button {
-    border: none;
-    background-color: transparent;
-
-}
-
-.num-button {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-
-    text-transform: uppercase;
-
-
-    color: #1E0606;
-}
 
