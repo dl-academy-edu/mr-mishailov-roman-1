@@ -105,7 +105,7 @@ ul {
     text-transform: uppercase;
 
     color: #FFFFFF;
-
+    border: 0px;
     background-color: #000000;
     border-color: transparent;
     display: block;
@@ -133,8 +133,9 @@ ul {
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
-    margin-bottom: 23px;
+    padding-bottom: 23px;
 
+    border-bottom: 1px solid #666666;
 
     color: #AAAAAA;
 }
@@ -144,7 +145,7 @@ ul {
     line-height: 22px;
 
     color: #FFFFFF;
-
+    margin-bottom: 0px;
 }
 
 .footer-button {
@@ -237,7 +238,9 @@ input::placeholder {
 .line-bottom {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 0;
+    padding: 23px 0;
+
+    border-top: 1px solid #666666;
 }
 
 .full-line {
@@ -343,6 +346,23 @@ input::placeholder {
     max-width: 106px;
 }
 
+.contact-us-form {
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+    width: 680px;
+    padding: 42px 40px;
+
+    background-color: #E5EAF8;
+
+}
+
+.checkbox-text {
+    padding-left: 32px;
+    padding-top: 3px;
+}
+
 /* Article number navigation */
 .article-nav {
     margin-top: 33px;
@@ -379,4 +399,23 @@ input::placeholder {
 
 
     color: #1E0606;
+}
+
+
+/* checkbox */
+.input-checkbox-checker {
+    position: absolute;
+    display: block;
+    border: 2px solid #C29974;
+    box-sizing: border-box;
+    border-radius: 3px;;
+    
+    width: 19px;
+    height: 19px;
+
+    align-items: center;
+}
+
+.bracket {
+    padding-bottom: 4px;
 }

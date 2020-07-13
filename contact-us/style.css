@@ -43,17 +43,7 @@
     margin-bottom: 60px;
 }
 
-.contact-us-form {
-    display: flex;
-    flex-direction: column;
 
-    box-sizing: border-box;
-    width: 680px;
-    padding: 42px 40px;
-
-    background-color: #E5EAF8;
-
-}
 
 .support {
     display: block;
@@ -82,3 +72,6 @@
     color: #C29974;
 
 }
+
+
+
