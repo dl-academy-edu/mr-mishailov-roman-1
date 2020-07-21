@@ -172,6 +172,8 @@ input::placeholder {
     align-items: center;
     
     color: #EBEBEB;;
+
+    padding: 9px 15px;
 }
 
 .bottom {
@@ -403,6 +405,8 @@ input::placeholder {
 
 
 /* checkbox */
+
+
 .input-checkbox-checker {
     position: absolute;
     display: block;
@@ -416,6 +420,29 @@ input::placeholder {
     align-items: center;
 }
 
+
+.input-checkbox:checked ~.input-checkbox-checker::before {
+    content: "";
+
+    position: absolute;
+    display: inline-block;
+    
+
+    width: 19px;
+    height: 19px;
+
+    background-image: url(/images/Group.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    top: -2px;
+    left: -2px;
+
+
+}
+
 .bracket {
     padding-bottom: 4px;
 }
+
+
+
