@@ -73,17 +73,19 @@
 }
  
 /* input container */
-
+.search-bg {
+    background-color:  rgba(125, 151, 218, 0.2);
+}
 .toys-search {
     max-width: 1400px;
 
     margin: 0 auto;
     padding: 0 0;
-    background-color:  rgba(125, 151, 218, 0.2);
 
     margin-top: 50px;
     margin-bottom: 60px;
 }
+
 
 .field-direction {
     display: flex;
