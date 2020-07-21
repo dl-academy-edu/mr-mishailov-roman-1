@@ -1,5 +1,5 @@
 body { 
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Open Sans','Arial', sans-serif; 
 }
 
 a {
@@ -304,7 +304,7 @@ input::placeholder {
     display: flex;
     flex-direction: column;
 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto','Arial', sans-serif;
     font-size: 14px;
     line-height: 16px;
     color: #1E0606;
@@ -333,7 +333,7 @@ input::placeholder {
     margin-bottom: 20px;
 }
 .plus ::placeholder {
-    font-family: Roboto;
+    font-family: Roboto,'Georgia',serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -392,7 +392,7 @@ input::placeholder {
 }
 
 .num-button {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat','Arial', sans-serif;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;

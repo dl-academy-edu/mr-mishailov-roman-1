@@ -1,7 +1,7 @@
 /* Contact pages */
 
 .contact-us-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat','Arial', sans-serif;
     font-weight: bold;
     font-size: 40px;
     color:  #1E0606 ;
@@ -25,7 +25,7 @@
 }
 
 .link-text {
-    font-family: 'Crimson Text', serif;
+    font-family: 'Crimson Text','Georgia', serif;
     font-style: italic;
     font-size: 20px;
     line-height: 25px;
@@ -68,7 +68,7 @@ ul.category-list li:nth-child(4){
 }
 
 .bottom-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat','Arial', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 38px;

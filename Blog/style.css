@@ -1,7 +1,7 @@
 /* Contact pages */
 
 .contact-us-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat','Arial', sans-serif;
     font-weight: bold;
     font-size: 40px;
     color:  #1E0606 ;
@@ -25,7 +25,7 @@
 }
 
 .link-text {
-    font-family: 'Crimson Text', serif;
+    font-family: 'Crimson Text','Georgia', serif;
     font-style: italic;
     font-size: 20px;
     line-height: 25px;
@@ -55,7 +55,7 @@
     margin-top: 20px;
     margin-bottom: 10px;
 
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto','Arial',sans-serif;
     font-size: 16px;
     line-height: 19px;
 
@@ -64,7 +64,7 @@
 }
 
 .article-title {
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat','Arial',sans-serif;
     font-weight: bold;
     font-size: 24px;
     line-height: 31px;
@@ -74,7 +74,7 @@
 }
 
 .article-text {
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans','Arial',sans-serif;
     font-size: 18px;
     line-height: 25px;
 
