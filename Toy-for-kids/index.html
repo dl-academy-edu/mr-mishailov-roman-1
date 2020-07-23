@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DLK</title>
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,700;1,400&family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/common.css">
+        <link rel="stylesheet" href="/Toy-for-kids/style.css">
+    </head>
+    <header class="header container">
+        <a href="/index.html">
+            <img class="header-img" src="/images/logo.svg" alt="DLK">
+        </a>
+        <nav class="header-nav">
+            <ul class="header-nav-text">
+                <li><a class="header-nav-link" href="/blog/index.html">Blog</a></li>
+                <li><a class="header-nav-link" href="/category-products/index.html">Catalog</a></li>
+                <li><a class="header-nav-link" href="#">About Us</a></li>
+            </ul>
+        </nav>
+        <ul class="header-search">
+            <li><button class="header-list-button">
+                <img class="search-image" src="/images/search.svg" alt="search">
+            </button> </li>
+            <li><a class="header-list-contact" href="/contact-us/index.html">Contact  Us</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="category-products container">
+            <h1 class="contact-us-title">TOY FOR KIDS</h1>
+            <ul class="nav-link">
+                <li class="nav-centr"><a class="nav-margin link-text" href="../index.html">Home</a></li>
+                <li><p class="nav-margin bracket"><svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.31229 0L0 1.17735L5.37541 6L0 10.8227L1.31229 12L8 6L1.31229 0Z" fill="#1E0606"/>
+                    </svg></p></li>
+                <li class="nav-centr"><a class="nav-margin link-text" href="/category-products/index.html">Catalog</a></li>
+                <li class="nav-centr"><p class="nav-margin bracket"><svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.31229 0L0 1.17735L5.37541 6L0 10.8227L1.31229 12L8 6L1.31229 0Z" fill="#1E0606"/>
+                    </svg>
+                    </p></li>
+                <li class="nav-centr"><a class="nav-margin link-text text-finish">Toys</a></li>
+            </ul>
+        </section>
+        <div class="search-bg">
+        <section class="toys-search">
+            <h3 class="hidden">Search toys</h3>
+            <form name="search-toy" action="url" method="GET" >
+                <div class="field-direction">
+                    <fieldset class="search-box cost-box">
+                        <legend class="search-title">Cost</legend>
+                        <input class="range-cost" type="range" min="0" max="500" step="5" value="250">
+                        <div class="range-box">
+                            <p class="range-num">0</p>
+                            <p class="range-num">500</p>
+                        </div>
+                    </fieldset>
+                    <fieldset class="search-box"> 
+                        <legend class="search-title">Color</legend>
+                        <ul class="colors">
+                            <li class="colors-checkbox">
+                                <label class="color-lable">
+                                    <input class="hidden input-checkbox" type="checkbox" name="colors" value="black">
+                                    <span class="input-lable-checkbox">Black</span>
+                                    <span class="input-checkbox-checker"></span>
+                                </label>
+                            </li>
+                            <li class="colors-checkbox">
+                                <label class="color-lable">
+                                    <input class="hidden input-checkbox" type="checkbox" name="colors" value="blue">
+                                    <span class="input-lable-checkbox">Blue</span>
+                                    <span class="input-checkbox-checker"></span>
+                                </label>
+                            </li>
+                            <li class="colors-checkbox">
+                                <label class="color-lable">
+                                    <input class="hidden input-checkbox" type="checkbox" name="colors" value="green">
+                                    <span class="input-lable-checkbox">Green</span>
+                                    <span class="input-checkbox-checker"></span>
+                                </label>
+                            </li>
+                            <li class="colors-checkbox">
+                                <label class="color-lable">
+                                    <input class="hidden input-checkbox" type="checkbox" name="colors" value="white">
+                                    <span class="input-lable-checkbox">White</span>
+                                    <span class="input-checkbox-checker">
+                                        <span class="="input-checked"></span>
+                                    </span>
+                                </label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset class="search-box">
+                        <legend class="search-title">Delivery</legend>
+                        <ul class="delivery">
+                            <li class="delivery-rad">
+                                <label class="delivery-lable">
+                                    <input class="rad-checker hidden" type="radio" name="shiping" value="freeShipping">
+                                    <span class="input-lable-rad">Free Shipping</span>
+                                    <span class="input-checkbox-circle"></span>
+                                </label>
+                            </li>
+                            <li class="delivery-rad">
+                                <label class="delivery-lable">
+                                    <input class="rad-checker hidden" type="radio" name="shiping" value="FastShipping">
+                                    <span class="input-lable-rad">Fast Shipping</span>
+                                    <span class="input-checkbox-circle"></span>
+                                </label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset class="search-box">
+                        <legend class="search-title">Amount</legend>
+                        <ul class="amount-list">
+                            <li class="delivery-rad">
+                                <label class="Amount-lable">
+                                    <input class="amount-button-list hidden" type="checkbox" name="amountButton" value="0-5" checked>
+                                    <span class="amount-button">0-5</span>
+                                </label>
+                            </li>
+                            <li class="delivery-rad">
+                                <label class="Amount-lable">
+                                    <input class="amount-button-list hidden" type="checkbox" name="amountButton" value="10-20">
+                                    <span class="amount-button">10-20</span>
+                                </label>
+                            </li>
+                            <li class="delivery-rad">
+                                <label class="Amount-lable">
+                                    <input class="amount-button-list hidden" type="checkbox" name="amountButton" value="20-50">
+                                    <span class="amount-button">20-50</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                        <button class="form-button button" type="submit">Apply</button>
+                </div>
+            </form>
+        </section>
+        </div>
+        <section class="container">
+            <h3 class="hidden">Things</h3>
+            <ul class="things-list">
+                <li class="thing">
+                    <img src="/images/shark.png" alt="shark-toy">
+                    <h4 class="thing-title">SHARKY BEAN BAG CHAIR COVER</h4>
+                    <p class="thing-cost">$60.00 USD</p>
+                </li>
+                <li class="thing">
+                    <img src="/images/deco.png" alt="deco">
+                    <h4 class="thing-title">BRASS DECO FRAMES</h4>
+                    <p class="thing-cost">$66.00 USD</p>
+                </li>
+                <li class="thing">
+                    <img src="/images/apron.png" alt="apron">
+                    <h4 class="thing-title">CIBO FULL APRON</h4>
+                    <p class="thing-cost">$60.00 USD</p>
+                </li>
+                <li class="thing">
+                    <img src="/images/gum-machine.png" alt="gum-machine">
+                    <h4 class="thing-title">GATCHA GATCHA GUMBALL MACHINE</h4>
+                    <p class="thing-cost">$56.00 USD</p>
+                </li>
+                <li class="thing">
+                    <img src="/images/candle.png" alt="candle">
+                    <h4 class="thing-title">CHRISTMAS ADVENT SCENTED CANDLE</h4>
+                    <p class="thing-cost">$29.00 USD</p>
+                </li>
+                <li class="thing">
+                    <img src="/images/tea-light.png" alt="tea-light">
+                    <h4 class="thing-title">TANGLE SPINNING TEA LIGHT</h4>
+                    <p class="thing-cost">$56.00 USD</p>
+                </li>
+            </ul>
+        </section>
+        <div class="article-nav container">
+            <button class="article-button move-button"><svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 2L3 15L16 28" stroke="#1E0606" stroke-opacity="0.12" stroke-width="4"/>
+                </svg>
+            </button>
+            <ul class="num-nav">
+                <li><button class="article-button num-button">1</button></li>
+                <li><button class="article-button num-button">2</button></li>
+                <li><button class="article-button num-button">3</button></li>
+                <li><button class="article-button num-button">4</button></li>
+            </ul>
+            <button class="article-button move-button"><svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 2L15 15L2 28" stroke="#1E0606" stroke-opacity="0.12" stroke-width="4"/>
+                </svg>
+            </button>
+        </div> 
+    </main>
+    <div class="footer-bg">
+        <footer class="footer container">
+                <div class="footer-inside">
+                    <div class="footer-coloms">
+                        <h4 class="footer-title">Navigation</h4>
+                        <ul class="footer-list">
+                            <li><a class="footer-left-link" href="#">About Us</a></li>
+                            <li><a class="footer-left-link" href="/blog/index.html">Blog</a></li>
+                            <li><a class="footer-left-link" href="#">Design Services</a></li>
+                            <li><a class="footer-left-link" href="#">Featured On</a></li>
+                            <li><a class="footer-left-link" href="/category-products/index.html">2018 Holiday Catalog</a></li>
+                            <li><a class="footer-left-link" href="#">Shop By Designer</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-coloms">
+                        <h4 class="footer-title">Customer Information</h4>
+                        <ul class="footer-list">
+                            <li><a class="footer-left-link" href="/contact-us/index.html">Contact Us</a></li>
+                            <li><a class="footer-left-link" href="#">Sale Exclusions</a></li>
+                            <li><a class="footer-left-link" href="#">Shipping & Returns</a></li>
+                            <li><a class="footer-left-link" href="#">Terms & Conditions</a></li>
+                            <li><a class="footer-left-link" href="#">Privacy Policy</a></li>
+                            <li><a class="footer-left-link" href="#search">Search</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-coloms">
+                        <h4 class="footer-title">Connect</h4>
+                        <div class="footer-right">
+                            <div class="footer-input">
+                                <form action="/contact-us/index.html" class="form">
+                                    <label class="text-lable">
+                                        <input class="input-email input-size" type="email" name="email" placeholder="Email">
+                                    </label>
+                                </form>
+                                <button class="footer-button button">Join</button>
+                            </div>
+                            <ul class="social">
+                                <li><a class="social-link" href="#"><img src="/images/Facebook.svg" alt="facebook"></a></li>
+                                <li><a class="social-link" href="#"><img src="/images/Twitter.svg" alt="twitter"></a></li>
+                                <li><a class="social-link" href="#"><img src="/images/Pinterest.svg" alt="pinterest"></a></li>
+                                <li><a class="social-link" href="#"><img src="/images/Instagram.svg" alt="instagram"></a></li>   
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-bottom container">
+                    <ul class="bottom">
+                    <li class="star-box">
+                        <p class="bottom-text">Company Rating</p>
+                        <ul class="stars">
+                            <li class="star"><img src="/images/Star.svg" alt="stars"></li>
+                            <li class="star"><img src="/images/Star.svg" alt="stars"></li>
+                            <li class="star"><img src="/images/Star.svg" alt="stars"></li>
+                            <li class="star"><img src="/images/Star.svg" alt="stars"></li>
+                            <li class="star"><img src="/images/Star.svg" alt="stars"></li>
+                        </ul>
+                    </li>
+                    <li><p class="bottom-text margin-copirate" >Copyright © 2018 Dlk • Design Life Kids</p></li>
+                    <li><a class="bottom-link" href="#">Web Design — Direct Line Development</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
